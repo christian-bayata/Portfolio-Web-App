@@ -1,0 +1,171 @@
+.blog-body {
+    background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+.container {
+    width: 80%;
+    margin: auto;    
+    overflow: hidden;   
+}
+.bg-modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(211,211,211,0.7);
+
+}
+.clear-fix {
+    clear: both;
+}
+#header-bar {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;  
+    min-height: 100px;
+    overflow: hidden;
+    background-image: url('../../images/blog-image.jpg');
+    background-repeat: repeat;
+    position: relative;
+    
+}
+#header-bar button {
+    border-radius: 10px;
+    background-color: lightcoral;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-width:0vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+}
+#header-bar button a {
+    text-decoration: none;
+    color: #fff;
+}
+#header-bar #header-button{
+    top: 30px;
+    right: 20px;
+    position: absolute;
+}
+
+#header-bar h1 {
+    font-size: 2em;
+}
+
+#navbar {
+    background-color: lightcoral;
+    font-size: 15px;
+}
+#navbar ul {
+    list-style: none;
+}
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+}
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+#navbar a:hover {
+    color: #333;
+}
+#sidebar-1 {
+    float: left;
+    width: 70%;
+    padding: 5px;
+    line-height: 1.6em;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar-img {
+    width: 100%;
+    height: 250px;
+}
+#sidebar-2 {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    line-height: 1.6em;
+    background: lightcoral;
+    box-sizing: border-box;
+    color: #fff;
+}
+#footer-bar {
+ text-align: center;
+ background-color: #333;
+ line-height: 1.6em;
+ padding: 5px; 
+ font-family: sans-serif;
+ color: #fff;
+}
+#footer-icons img{
+    display: inline;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*CSS for Login Page*/
+#signup-body {
+    background-color: #333;
+}
+.whole-form {
+    margin: auto;
+    width: 40%;
+    border: 1px inset lightcoral; 
+    background-color:lightgray;  
+    border-radius: 5px;
+}
+.whole-form h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.whole-form .my-form label {
+    display: block;
+    line-height: 1em;
+    padding-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #333;
+}
+.whole-form .my-form span {
+    color: red !important; 
+    display: inline; 
+    float: none;
+}
+.whole-form .my-form input {
+    width: 80%;
+    padding: 2px;
+    margin: 10px 5px;
+}
+.whole-form .my-form select {
+    margin: 5px;
+}
+.my-form #state {
+    margin-left:25px;
+}
+#submit-button{
+    border-radius: 10px;
+    border: 2px solid #fff; 
+    background-color: #ff4b2b;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+#submit-button a {
+    text-decoration: none;
+    color: #fff;
+} 
